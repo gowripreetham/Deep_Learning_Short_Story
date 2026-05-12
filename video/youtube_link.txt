@@ -1,0 +1,4 @@
+Paste your final public YouTube URL here, e.g.
+https://www.youtube.com/watch?v=XXXXXXXXXXX
+
+(Then commit and push so the README link works.)

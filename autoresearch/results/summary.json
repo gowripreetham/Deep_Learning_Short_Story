@@ -1,0 +1,59 @@
+{
+  "by_category": {
+    "cmn": {
+      "name": "common knowledge",
+      "n": 10,
+      "hallucinated": 2,
+      "correct": 8,
+      "abstained": 0,
+      "hallucination_rate": 0.2
+    },
+    "sci": {
+      "name": "science / health",
+      "n": 10,
+      "hallucinated": 3,
+      "correct": 6,
+      "abstained": 1,
+      "hallucination_rate": 0.3
+    },
+    "tmp": {
+      "name": "temporal claims",
+      "n": 10,
+      "hallucinated": 4,
+      "correct": 5,
+      "abstained": 1,
+      "hallucination_rate": 0.4
+    },
+    "qte": {
+      "name": "attributed quotes",
+      "n": 10,
+      "hallucinated": 5,
+      "correct": 4,
+      "abstained": 1,
+      "hallucination_rate": 0.5
+    },
+    "lwf": {
+      "name": "law / finance",
+      "n": 10,
+      "hallucinated": 4,
+      "correct": 5,
+      "abstained": 1,
+      "hallucination_rate": 0.4
+    },
+    "pop": {
+      "name": "pop culture",
+      "n": 10,
+      "hallucinated": 3,
+      "correct": 7,
+      "abstained": 0,
+      "hallucination_rate": 0.3
+    }
+  },
+  "overall": {
+    "n": 60,
+    "hallucinated": 21,
+    "correct": 35,
+    "abstained": 4,
+    "hallucination_rate": 0.35
+  }
+}

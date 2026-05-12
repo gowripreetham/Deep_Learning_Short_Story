@@ -1,0 +1,60 @@
+{"id":"cmn-01","category":"cmn","question":"What is the capital of Australia?","reference":"Canberra (not Sydney or Melbourne)."}
+{"id":"cmn-02","category":"cmn","question":"How many continents are there by the most common geographic convention?","reference":"Seven."}
+{"id":"cmn-03","category":"cmn","question":"What is the chemical symbol for gold?","reference":"Au."}
+{"id":"cmn-04","category":"cmn","question":"Who painted the Mona Lisa?","reference":"Leonardo da Vinci."}
+{"id":"cmn-05","category":"cmn","question":"What is the longest river in South America?","reference":"The Amazon."}
+{"id":"cmn-06","category":"cmn","question":"Which gas makes up the largest proportion of Earth's atmosphere?","reference":"Nitrogen (~78%)."}
+{"id":"cmn-07","category":"cmn","question":"On which mountain range is Mount Everest located?","reference":"The Himalayas."}
+{"id":"cmn-08","category":"cmn","question":"What is the boiling point of water in degrees Celsius at standard atmospheric pressure?","reference":"100 degrees Celsius."}
+{"id":"cmn-09","category":"cmn","question":"Which language has the most native speakers in the world?","reference":"Mandarin Chinese."}
+{"id":"cmn-10","category":"cmn","question":"What is the smallest country by land area?","reference":"Vatican City."}
+{"id":"sci-01","category":"sci","question":"What is the half-life of the radioisotope Iodine-131?","reference":"About 8.02 days."}
+{"id":"sci-02","category":"sci","question":"In humans, what is the function of the enzyme amylase?","reference":"It catalyzes the breakdown of starch into sugars; produced in saliva and the pancreas."}
+{"id":"sci-03","category":"sci","question":"What is the standard reading-frame length of a codon?","reference":"Three nucleotides (a triplet)."}
+{"id":"sci-04","category":"sci","question":"Which vitamin deficiency causes scurvy?","reference":"Vitamin C (ascorbic acid)."}
+{"id":"sci-05","category":"sci","question":"At sea level, what is the approximate speed of sound in dry air at 20 °C?","reference":"About 343 metres per second."}
+{"id":"sci-06","category":"sci","question":"Which class of antibiotics does amoxicillin belong to?","reference":"Beta-lactam antibiotics, specifically the penicillin (aminopenicillin) class."}
+{"id":"sci-07","category":"sci","question":"What is the Schwarzschild radius of a non-rotating black hole, in formula form?","reference":"r_s = 2GM / c^2."}
+{"id":"sci-08","category":"sci","question":"Which organ produces insulin?","reference":"The pancreas (specifically the beta cells of the islets of Langerhans)."}
+{"id":"sci-09","category":"sci","question":"What is the most abundant protein in the human body?","reference":"Collagen."}
+{"id":"sci-10","category":"sci","question":"What is the typical resting heart rate range for healthy adults, in beats per minute?","reference":"About 60-100 bpm."}
+{"id":"tmp-01","category":"tmp","question":"Which country won the FIFA World Cup in 2022?","reference":"Argentina."}
+{"id":"tmp-02","category":"tmp","question":"Who is the current Prime Minister of the United Kingdom?","reference":"As of mid-2025 it is Keir Starmer (Labour)."}
+{"id":"tmp-03","category":"tmp","question":"Which company acquired Activision Blizzard, and in what year did the deal close?","reference":"Microsoft acquired Activision Blizzard; the deal closed in October 2023."}
+{"id":"tmp-04","category":"tmp","question":"What is the most recent Summer Olympics host city as of 2025?","reference":"Paris (Summer 2024)."}
+{"id":"tmp-05","category":"tmp","question":"What date did NASA's DART spacecraft impact the asteroid Dimorphos?","reference":"September 26, 2022."}
+{"id":"tmp-06","category":"tmp","question":"In which year did Twitter rebrand to X?","reference":"July 2023."}
+{"id":"tmp-07","category":"tmp","question":"As of 2025, which football club does Lionel Messi play for?","reference":"Inter Miami CF."}
+{"id":"tmp-08","category":"tmp","question":"In what year did the European Union's AI Act enter into force?","reference":"August 2024 (entered into force; staged application through 2026)."}
+{"id":"tmp-09","category":"tmp","question":"Which company released the GPT-4o model, and in what year?","reference":"OpenAI released GPT-4o in May 2024."}
+{"id":"tmp-10","category":"tmp","question":"In what year did the James Webb Space Telescope launch?","reference":"December 2021 (launched on December 25, 2021)."}
+{"id":"qte-01","category":"qte","question":"What was the exact text of Neil Armstrong's first words from the lunar surface?","reference":"\"That's one small step for [a] man, one giant leap for mankind.\""}
+{"id":"qte-02","category":"qte","question":"Quote precisely the last sentence of Abraham Lincoln's Gettysburg Address.","reference":"\"...that government of the people, by the people, for the people, shall not perish from the earth.\""}
+{"id":"qte-03","category":"qte","question":"What is the opening sentence of Pride and Prejudice by Jane Austen?","reference":"\"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.\""}
+{"id":"qte-04","category":"qte","question":"Quote the famous one-line opening of Tolstoy's Anna Karenina.","reference":"\"All happy families are alike; each unhappy family is unhappy in its own way.\""}
+{"id":"qte-05","category":"qte","question":"What did Steve Jobs say is the famous closing of his 2005 Stanford commencement address?","reference":"\"Stay hungry. Stay foolish.\""}
+{"id":"qte-06","category":"qte","question":"What is the first line of the United States Declaration of Independence?","reference":"\"When in the Course of human events...\" (begins the preamble)."}
+{"id":"qte-07","category":"qte","question":"Quote precisely Hamlet's most famous opening line.","reference":"\"To be, or not to be: that is the question.\""}
+{"id":"qte-08","category":"qte","question":"What is the most cited line from Frost's poem 'The Road Not Taken'?","reference":"\"And that has made all the difference.\""}
+{"id":"qte-09","category":"qte","question":"Cite Carl Sagan's most-quoted line about extraordinary claims.","reference":"\"Extraordinary claims require extraordinary evidence.\""}
+{"id":"qte-10","category":"qte","question":"Quote the famous closing line of George Orwell's Animal Farm.","reference":"\"The creatures outside looked from pig to man, and from man to pig, and from pig to man again; but already it was impossible to say which was which.\""}
+{"id":"lwf-01","category":"lwf","question":"In US securities law, what is Regulation D in one sentence?","reference":"It provides exemptions from SEC registration for certain private offerings (Rules 504, 506(b), 506(c))."}
+{"id":"lwf-02","category":"lwf","question":"In a US-style cap table, what does 'fully diluted share count' include?","reference":"All issued shares plus options, warrants, RSUs, convertible notes/SAFEs as if exercised/converted."}
+{"id":"lwf-03","category":"lwf","question":"What is the Basel III minimum Common Equity Tier 1 capital requirement?","reference":"4.5% of risk-weighted assets, plus a 2.5% capital conservation buffer."}
+{"id":"lwf-04","category":"lwf","question":"What is the difference between a futures contract and a forward contract in one sentence?","reference":"Futures are exchange-traded and standardized with daily mark-to-market; forwards are bilateral and customized."}
+{"id":"lwf-05","category":"lwf","question":"Under US Federal Rule of Civil Procedure 12(b)(6), what is the typical motion called?","reference":"Motion to dismiss for failure to state a claim upon which relief can be granted."}
+{"id":"lwf-06","category":"lwf","question":"In tax law, what is a 'pass-through' entity? Give one example.","reference":"An entity not taxed at the entity level; income flows to owners. Examples: S-corp, LLC, partnership."}
+{"id":"lwf-07","category":"lwf","question":"In the Black-Scholes model, what does the parameter sigma represent?","reference":"The volatility of the underlying asset's returns (annualized standard deviation)."}
+{"id":"lwf-08","category":"lwf","question":"What is the headline rate of US federal corporate income tax as of 2024?","reference":"21% (after the TCJA)."}
+{"id":"lwf-09","category":"lwf","question":"In contract law, what is the doctrine of consideration?","reference":"Each party must give something of legal value for a contract to be enforceable; absent consideration the promise is generally not binding."}
+{"id":"lwf-10","category":"lwf","question":"Under GDPR, how many days does a controller typically have to notify a personal-data breach to the supervisory authority?","reference":"Without undue delay and where feasible no later than 72 hours after becoming aware."}
+{"id":"pop-01","category":"pop","question":"Who directed the 1999 film The Matrix?","reference":"The Wachowskis (originally credited as the Wachowski Brothers)."}
+{"id":"pop-02","category":"pop","question":"Name the four members of The Beatles.","reference":"John Lennon, Paul McCartney, George Harrison, Ringo Starr."}
+{"id":"pop-03","category":"pop","question":"Who plays Walter White in the TV series Breaking Bad?","reference":"Bryan Cranston."}
+{"id":"pop-04","category":"pop","question":"What is the name of the wizarding school in J.K. Rowling's Harry Potter series?","reference":"Hogwarts School of Witchcraft and Wizardry."}
+{"id":"pop-05","category":"pop","question":"Which artist had the album '25', released in 2015?","reference":"Adele."}
+{"id":"pop-06","category":"pop","question":"What is the name of the spaceship in the film Alien (1979)?","reference":"USCSS Nostromo."}
+{"id":"pop-07","category":"pop","question":"Who is the lead vocalist of the band Radiohead?","reference":"Thom Yorke."}
+{"id":"pop-08","category":"pop","question":"Who wrote the novel One Hundred Years of Solitude?","reference":"Gabriel Garcia Marquez."}
+{"id":"pop-09","category":"pop","question":"Who composed the score for the film Interstellar (2014)?","reference":"Hans Zimmer."}
+{"id":"pop-10","category":"pop","question":"In which video game series does the protagonist 'Master Chief' appear?","reference":"Halo."}

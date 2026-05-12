@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <rect width="800" height="480" fill="#fafafa"/>
+  <text x="400" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#111">Reproduction: hallucination rate by category</text>
+  <text x="400" y="60" text-anchor="middle" font-size="13" fill="#555">200-question subset, open 7B chat model, judge-LLM verification (illustrative)</text>
+
+  <!-- axes -->
+  <line x1="120" y1="100" x2="120" y2="380" stroke="#333" stroke-width="1.5"/>
+  <line x1="120" y1="380" x2="760" y2="380" stroke="#333" stroke-width="1.5"/>
+
+  <!-- y-axis ticks -->
+  <g font-size="11" fill="#555">
+    <line x1="115" y1="380" x2="120" y2="380"/><text x="110" y="384" text-anchor="end">0%</text>
+    <line x1="115" y1="324" x2="120" y2="324"/><text x="110" y="328" text-anchor="end">20%</text>
+    <line x1="115" y1="268" x2="120" y2="268"/><text x="110" y="272" text-anchor="end">40%</text>
+    <line x1="115" y1="212" x2="120" y2="212"/><text x="110" y="216" text-anchor="end">60%</text>
+    <line x1="115" y1="156" x2="120" y2="156"/><text x="110" y="160" text-anchor="end">80%</text>
+    <line x1="115" y1="100" x2="120" y2="100"/><text x="110" y="104" text-anchor="end">100%</text>
+  </g>
+
+  <!-- gridlines -->
+  <g stroke="#e5e7eb" stroke-width="1">
+    <line x1="120" y1="324" x2="760" y2="324"/>
+    <line x1="120" y1="268" x2="760" y2="268"/>
+    <line x1="120" y1="212" x2="760" y2="212"/>
+    <line x1="120" y1="156" x2="760" y2="156"/>
+  </g>
+
+  <!-- bars: 6 categories. height = pct * 2.8 -->
+  <!-- 22% common knowledge, 35% science/health, 41% temporal, 47% attributed quotes, 38% law/finance, 31% pop culture -->
+  <g>
+    <rect x="160" y="318" width="70" height="62" fill="#1d4ed8"/><text x="195" y="312" text-anchor="middle" font-size="12" font-weight="700">22%</text>
+    <text x="195" y="400" text-anchor="middle" font-size="11">common</text><text x="195" y="414" text-anchor="middle" font-size="11">knowledge</text>
+
+    <rect x="260" y="282" width="70" height="98" fill="#1d4ed8"/><text x="295" y="276" text-anchor="middle" font-size="12" font-weight="700">35%</text>
+    <text x="295" y="400" text-anchor="middle" font-size="11">science /</text><text x="295" y="414" text-anchor="middle" font-size="11">health</text>
+
+    <rect x="360" y="265" width="70" height="115" fill="#b91c1c"/><text x="395" y="259" text-anchor="middle" font-size="12" font-weight="700">41%</text>
+    <text x="395" y="400" text-anchor="middle" font-size="11">temporal</text><text x="395" y="414" text-anchor="middle" font-size="11">claims</text>
+
+    <rect x="460" y="248" width="70" height="132" fill="#b91c1c"/><text x="495" y="242" text-anchor="middle" font-size="12" font-weight="700">47%</text>
+    <text x="495" y="400" text-anchor="middle" font-size="11">attributed</text><text x="495" y="414" text-anchor="middle" font-size="11">quotes</text>
+
+    <rect x="560" y="274" width="70" height="106" fill="#1d4ed8"/><text x="595" y="268" text-anchor="middle" font-size="12" font-weight="700">38%</text>
+    <text x="595" y="400" text-anchor="middle" font-size="11">law /</text><text x="595" y="414" text-anchor="middle" font-size="11">finance</text>
+
+    <rect x="660" y="293" width="70" height="87" fill="#1d4ed8"/><text x="695" y="287" text-anchor="middle" font-size="12" font-weight="700">31%</text>
+    <text x="695" y="400" text-anchor="middle" font-size="11">pop</text><text x="695" y="414" text-anchor="middle" font-size="11">culture</text>
+  </g>
+
+  <text x="400" y="450" text-anchor="middle" font-size="12" fill="#666">Red bars = top-failing categories (extrinsic hallucination, exactly where the survey predicts).</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <rect width="900" height="700" fill="#fafafa"/>
+  <text x="450" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#111">Reliable &amp; Responsible Foundation Models</text>
+  <text x="450" y="64" text-anchor="middle" font-size="14" fill="#555">Nine reliability dimensions across four model classes</text>
+
+  <!-- Center -->
+  <circle cx="450" cy="380" r="90" fill="#1f2937" />
+  <text x="450" y="370" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Foundation</text>
+  <text x="450" y="392" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Model</text>
+
+  <!-- Inner ring: 4 model classes -->
+  <g font-size="13" font-weight="600" fill="#1f2937">
+    <rect x="370" y="220" width="160" height="34" rx="6" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="450" y="242" text-anchor="middle">LLMs (text → text)</text>
+    <rect x="600" y="360" width="180" height="34" rx="6" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="690" y="382" text-anchor="middle">MLLMs (multi → text)</text>
+    <rect x="370" y="500" width="160" height="34" rx="6" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="450" y="522" text-anchor="middle">Image generators</text>
+    <rect x="120" y="360" width="180" height="34" rx="6" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="210" y="382" text-anchor="middle">Video generators</text>
+  </g>
+
+  <!-- Outer ring: 9 dimensions -->
+  <g font-size="13" font-weight="700">
+    <g><circle cx="450" cy="120" r="48" fill="#fee2e2" stroke="#b91c1c"/><text x="450" y="116" text-anchor="middle" fill="#7f1d1d">Bias &amp;</text><text x="450" y="132" text-anchor="middle" fill="#7f1d1d">Fairness</text></g>
+    <g><circle cx="630" cy="160" r="48" fill="#ffedd5" stroke="#c2410c"/><text x="630" y="156" text-anchor="middle" fill="#7c2d12">Align-</text><text x="630" y="172" text-anchor="middle" fill="#7c2d12">ment</text></g>
+    <g><circle cx="780" cy="290" r="48" fill="#fef3c7" stroke="#b45309"/><text x="780" y="294" text-anchor="middle" fill="#78350f">Security</text></g>
+    <g><circle cx="800" cy="460" r="48" fill="#dcfce7" stroke="#15803d"/><text x="800" y="464" text-anchor="middle" fill="#14532d">Privacy</text></g>
+    <g><circle cx="660" cy="600" r="48" fill="#cffafe" stroke="#0e7490"/><text x="660" y="596" text-anchor="middle" fill="#164e63">Hallu-</text><text x="660" y="612" text-anchor="middle" fill="#164e63">cination</text></g>
+    <g><circle cx="450" cy="640" r="48" fill="#dbeafe" stroke="#1d4ed8"/><text x="450" y="644" text-anchor="middle" fill="#1e3a8a">Uncertainty</text></g>
+    <g><circle cx="240" cy="600" r="48" fill="#ede9fe" stroke="#6d28d9"/><text x="240" y="596" text-anchor="middle" fill="#4c1d95">Distribution</text><text x="240" y="612" text-anchor="middle" fill="#4c1d95">Shift</text></g>
+    <g><circle cx="100" cy="460" r="48" fill="#fae8ff" stroke="#a21caf"/><text x="100" y="456" text-anchor="middle" fill="#701a75">Explain-</text><text x="100" y="472" text-anchor="middle" fill="#701a75">ability</text></g>
+    <g><circle cx="120" cy="290" r="48" fill="#fce7f3" stroke="#be185d"/><text x="120" y="286" text-anchor="middle" fill="#831843">AIGC</text><text x="120" y="302" text-anchor="middle" fill="#831843">Detection</text></g>
+    <g><circle cx="270" cy="160" r="48" fill="#e0e7ff" stroke="#3730a3"/><text x="270" y="164" text-anchor="middle" fill="#1e1b4b">Synergies</text></g>
+  </g>
+
+  <!-- Connecting lines between center and dimensions -->
+  <g stroke="#94a3b8" stroke-width="1" fill="none" opacity="0.55">
+    <line x1="450" y1="290" x2="450" y2="170"/>
+    <line x1="510" y1="320" x2="610" y2="200"/>
+    <line x1="540" y1="380" x2="730" y2="290"/>
+    <line x1="540" y1="420" x2="750" y2="460"/>
+    <line x1="500" y1="460" x2="640" y2="555"/>
+    <line x1="450" y1="470" x2="450" y2="590"/>
+    <line x1="400" y1="460" x2="270" y2="555"/>
+    <line x1="360" y1="420" x2="150" y2="460"/>
+    <line x1="370" y1="380" x2="170" y2="290"/>
+    <line x1="395" y1="320" x2="295" y2="200"/>
+  </g>
+
+  <text x="450" y="685" text-anchor="middle" font-size="12" fill="#666">After Yang et al., TMLR 10/2025 — original redrawing</text>
+</svg>

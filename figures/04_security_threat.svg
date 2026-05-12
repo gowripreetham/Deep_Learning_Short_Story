@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <rect width="1100" height="600" fill="#fafafa"/>
+  <text x="550" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#111">Security Threat Model — Attacks &amp; Defenses</text>
+
+  <!-- Headers -->
+  <rect x="40" y="80" width="500" height="40" rx="6" fill="#fee2e2" stroke="#b91c1c"/>
+  <text x="290" y="105" text-anchor="middle" font-weight="700" fill="#7f1d1d">Attacks</text>
+  <rect x="560" y="80" width="500" height="40" rx="6" fill="#dcfce7" stroke="#15803d"/>
+  <text x="810" y="105" text-anchor="middle" font-weight="700" fill="#14532d">Defenses</text>
+
+  <!-- LLM row -->
+  <text x="20" y="160" font-weight="700" font-size="14" fill="#1f2937">LLMs</text>
+  <rect x="40" y="140" width="160" height="100" rx="6" fill="#fff" stroke="#b91c1c"/>
+  <text x="120" y="165" text-anchor="middle" font-weight="700" font-size="13" fill="#7f1d1d">Backdoor</text>
+  <text x="120" y="185" text-anchor="middle" font-size="11" fill="#374151">Trigger tokens</text>
+  <text x="120" y="200" text-anchor="middle" font-size="11" fill="#374151">injected at train</text>
+  <rect x="210" y="140" width="160" height="100" rx="6" fill="#fff" stroke="#b91c1c"/>
+  <text x="290" y="165" text-anchor="middle" font-weight="700" font-size="13" fill="#7f1d1d">Jailbreak</text>
+  <text x="290" y="185" text-anchor="middle" font-size="11" fill="#374151">PAIR, GCG,</text>
+  <text x="290" y="200" text-anchor="middle" font-size="11" fill="#374151">GPTFuzzer</text>
+  <rect x="380" y="140" width="160" height="100" rx="6" fill="#fff" stroke="#b91c1c"/>
+  <text x="460" y="165" text-anchor="middle" font-weight="700" font-size="13" fill="#7f1d1d">Adversarial</text>
+  <text x="460" y="185" text-anchor="middle" font-size="11" fill="#374151">Token / character</text>
+  <text x="460" y="200" text-anchor="middle" font-size="11" fill="#374151">perturbations</text>
+
+  <rect x="560" y="140" width="160" height="100" rx="6" fill="#fff" stroke="#15803d"/>
+  <text x="640" y="165" text-anchor="middle" font-weight="700" font-size="13" fill="#14532d">Adv. training</text>
+  <text x="640" y="185" text-anchor="middle" font-size="11" fill="#374151">SFT on red-team</text>
+  <text x="640" y="200" text-anchor="middle" font-size="11" fill="#374151">data</text>
+  <rect x="730" y="140" width="160" height="100" rx="6" fill="#fff" stroke="#15803d"/>
+  <text x="810" y="165" text-anchor="middle" font-weight="700" font-size="13" fill="#14532d">Input filters</text>
+  <text x="810" y="185" text-anchor="middle" font-size="11" fill="#374151">Rule-based +</text>
+  <text x="810" y="200" text-anchor="middle" font-size="11" fill="#374151">classifier guards</text>
+  <rect x="900" y="140" width="160" height="100" rx="6" fill="#fff" stroke="#15803d"/>
+  <text x="980" y="165" text-anchor="middle" font-weight="700" font-size="13" fill="#14532d">Const. classifier</text>
+  <text x="980" y="185" text-anchor="middle" font-size="11" fill="#374151">ShieldLM, APS,</text>
+  <text x="980" y="200" text-anchor="middle" font-size="11" fill="#374151">constitutional</text>
+
+  <!-- MLLM row -->
+  <text x="20" y="290" font-weight="700" font-size="14" fill="#1f2937">MLLMs</text>
+  <rect x="40" y="270" width="245" height="100" rx="6" fill="#fff" stroke="#b91c1c"/>
+  <text x="162" y="295" text-anchor="middle" font-weight="700" font-size="13" fill="#7f1d1d">Visual adversarial</text>
+  <text x="162" y="315" text-anchor="middle" font-size="11" fill="#374151">Imperceptible image perturb.</text>
+  <text x="162" y="332" text-anchor="middle" font-size="11" fill="#374151">on the vision encoder</text>
+  <rect x="295" y="270" width="245" height="100" rx="6" fill="#fff" stroke="#b91c1c"/>
+  <text x="417" y="295" text-anchor="middle" font-weight="700" font-size="13" fill="#7f1d1d">Typographic / OCR</text>
+  <text x="417" y="315" text-anchor="middle" font-size="11" fill="#374151">Rendering text into the image</text>
+  <text x="417" y="332" text-anchor="middle" font-size="11" fill="#374151">to hijack instructions</text>
+
+  <rect x="560" y="270" width="245" height="100" rx="6" fill="#fff" stroke="#15803d"/>
+  <text x="682" y="295" text-anchor="middle" font-weight="700" font-size="13" fill="#14532d">Cross-modal RLHF</text>
+  <text x="682" y="315" text-anchor="middle" font-size="11" fill="#374151">RLHF-V, POVID</text>
+  <text x="682" y="332" text-anchor="middle" font-size="11" fill="#374151">grounded preferences</text>
+  <rect x="815" y="270" width="245" height="100" rx="6" fill="#fff" stroke="#15803d"/>
+  <text x="937" y="295" text-anchor="middle" font-weight="700" font-size="13" fill="#14532d">Vision-side filters</text>
+  <text x="937" y="315" text-anchor="middle" font-size="11" fill="#374151">Pre-OCR moderation,</text>
+  <text x="937" y="332" text-anchor="middle" font-size="11" fill="#374151">image-content classifiers</text>
+
+  <!-- Image gen row -->
+  <text x="20" y="420" font-weight="700" font-size="14" fill="#1f2937">Image Gen</text>
+  <rect x="40" y="400" width="245" height="100" rx="6" fill="#fff" stroke="#b91c1c"/>
+  <text x="162" y="425" text-anchor="middle" font-weight="700" font-size="13" fill="#7f1d1d">Concept-erasure bypass</text>
+  <text x="162" y="445" text-anchor="middle" font-size="11" fill="#374151">Recover unsafe concepts</text>
+  <text x="162" y="462" text-anchor="middle" font-size="11" fill="#374151">after fine-tune removal</text>
+  <rect x="295" y="400" width="245" height="100" rx="6" fill="#fff" stroke="#b91c1c"/>
+  <text x="417" y="425" text-anchor="middle" font-weight="700" font-size="13" fill="#7f1d1d">Prompt obfuscation</text>
+  <text x="417" y="445" text-anchor="middle" font-size="11" fill="#374151">Multi-step / encoded prompts</text>
+  <text x="417" y="462" text-anchor="middle" font-size="11" fill="#374151">to dodge safety filters</text>
+
+  <rect x="560" y="400" width="245" height="100" rx="6" fill="#fff" stroke="#15803d"/>
+  <text x="682" y="425" text-anchor="middle" font-weight="700" font-size="13" fill="#14532d">Concept ablation</text>
+  <text x="682" y="445" text-anchor="middle" font-size="11" fill="#374151">Selective unlearning of</text>
+  <text x="682" y="462" text-anchor="middle" font-size="11" fill="#374151">unsafe concepts</text>
+  <rect x="815" y="400" width="245" height="100" rx="6" fill="#fff" stroke="#15803d"/>
+  <text x="937" y="425" text-anchor="middle" font-weight="700" font-size="13" fill="#14532d">Output-side filters</text>
+  <text x="937" y="445" text-anchor="middle" font-size="11" fill="#374151">NSFW / IP / face checks</text>
+  <text x="937" y="462" text-anchor="middle" font-size="11" fill="#374151">on generated pixels</text>
+
+  <!-- Bottom callout -->
+  <rect x="40" y="525" width="1020" height="50" rx="8" fill="#1f2937"/>
+  <text x="550" y="546" text-anchor="middle" font-weight="700" fill="#fff" font-size="13">Open problem: over-safety — defenses misclassify benign inputs as malicious.</text>
+  <text x="550" y="564" text-anchor="middle" font-size="11" fill="#cbd5e1">"The trade-off between adversarial safety and user experience is long-standing and unresolved." — Yang et al. §5</text>
+</svg>

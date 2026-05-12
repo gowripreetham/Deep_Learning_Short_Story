@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <rect width="1100" height="600" fill="#fafafa"/>
+  <text x="550" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#111">Hallucination — Taxonomy and Pipeline</text>
+
+  <!-- By cause -->
+  <rect x="40" y="80" width="500" height="200" rx="10" fill="#cffafe" stroke="#0e7490" stroke-width="2"/>
+  <text x="290" y="108" text-anchor="middle" font-weight="700" fill="#164e63" font-size="15">By cause</text>
+  <rect x="60" y="125" width="220" height="140" rx="8" fill="#fff" stroke="#0e7490"/>
+  <text x="170" y="148" text-anchor="middle" font-weight="700" fill="#164e63">Intrinsic</text>
+  <text x="170" y="172" text-anchor="middle" font-size="11" fill="#374151">contradicts input context</text>
+  <text x="170" y="190" text-anchor="middle" font-size="11" fill="#374151">"summary misstates a fact</text>
+  <text x="170" y="206" text-anchor="middle" font-size="11" fill="#374151">that was in the source"</text>
+  <rect x="300" y="125" width="220" height="140" rx="8" fill="#fff" stroke="#0e7490"/>
+  <text x="410" y="148" text-anchor="middle" font-weight="700" fill="#164e63">Extrinsic</text>
+  <text x="410" y="172" text-anchor="middle" font-size="11" fill="#374151">contradicts the world</text>
+  <text x="410" y="190" text-anchor="middle" font-size="11" fill="#374151">"fabricated citation,</text>
+  <text x="410" y="206" text-anchor="middle" font-size="11" fill="#374151">made-up court case"</text>
+
+  <!-- By model class -->
+  <rect x="560" y="80" width="500" height="200" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+  <text x="810" y="108" text-anchor="middle" font-weight="700" fill="#78350f" font-size="15">By model class</text>
+  <g font-size="11" fill="#374151">
+    <rect x="580" y="125" width="220" height="65" rx="6" fill="#fff" stroke="#b45309"/>
+    <text x="690" y="146" text-anchor="middle" font-weight="700" fill="#78350f">LLM</text>
+    <text x="690" y="166" text-anchor="middle">false claims, fake APIs,</text>
+    <text x="690" y="182" text-anchor="middle">fabricated citations</text>
+    <rect x="810" y="125" width="230" height="65" rx="6" fill="#fff" stroke="#b45309"/>
+    <text x="925" y="146" text-anchor="middle" font-weight="700" fill="#78350f">MLLM</text>
+    <text x="925" y="166" text-anchor="middle">object / attribute / relation</text>
+    <text x="925" y="182" text-anchor="middle">hallucinations on the image</text>
+    <rect x="580" y="200" width="220" height="65" rx="6" fill="#fff" stroke="#b45309"/>
+    <text x="690" y="221" text-anchor="middle" font-weight="700" fill="#78350f">Image gen</text>
+    <text x="690" y="241" text-anchor="middle">extra fingers, broken</text>
+    <text x="690" y="257" text-anchor="middle">reflections, glyph soup</text>
+    <rect x="810" y="200" width="230" height="65" rx="6" fill="#fff" stroke="#b45309"/>
+    <text x="925" y="221" text-anchor="middle" font-weight="700" fill="#78350f">Video gen</text>
+    <text x="925" y="241" text-anchor="middle">temporal incoherence,</text>
+    <text x="925" y="257" text-anchor="middle">disappearing objects</text>
+  </g>
+
+  <!-- Pipeline arrow -->
+  <text x="550" y="320" text-anchor="middle" font-weight="700" font-size="15" fill="#111">The detect → mitigate stack</text>
+
+  <!-- Pipeline -->
+  <g>
+    <rect x="40" y="340" width="220" height="80" rx="8" fill="#dbeafe" stroke="#1d4ed8"/>
+    <text x="150" y="365" text-anchor="middle" font-weight="700" fill="#1e3a8a">Sources</text>
+    <text x="150" y="385" text-anchor="middle" font-size="11" fill="#1e3a8a">data · training · inference</text>
+    <text x="150" y="402" text-anchor="middle" font-size="10" fill="#1e3a8a">noise, exposure bias, sampling</text>
+
+    <line x1="260" y1="380" x2="300" y2="380" stroke="#374151" stroke-width="2" marker-end="url(#arr2)"/>
+
+    <rect x="300" y="340" width="220" height="80" rx="8" fill="#dcfce7" stroke="#15803d"/>
+    <text x="410" y="365" text-anchor="middle" font-weight="700" fill="#14532d">Detection</text>
+    <text x="410" y="385" text-anchor="middle" font-size="11" fill="#14532d">SelfCheckGPT, FActScore</text>
+    <text x="410" y="402" text-anchor="middle" font-size="10" fill="#14532d">retrieval verifiers, learned</text>
+
+    <line x1="520" y1="380" x2="560" y2="380" stroke="#374151" stroke-width="2" marker-end="url(#arr2)"/>
+
+    <rect x="560" y="340" width="220" height="80" rx="8" fill="#fee2e2" stroke="#b91c1c"/>
+    <text x="670" y="365" text-anchor="middle" font-weight="700" fill="#7f1d1d">Mitigation</text>
+    <text x="670" y="385" text-anchor="middle" font-size="11" fill="#7f1d1d">RAG, contrastive decoding</text>
+    <text x="670" y="402" text-anchor="middle" font-size="10" fill="#7f1d1d">CoVe, factual fine-tuning</text>
+
+    <line x1="780" y1="380" x2="820" y2="380" stroke="#374151" stroke-width="2" marker-end="url(#arr2)"/>
+
+    <rect x="820" y="340" width="240" height="80" rx="8" fill="#fae8ff" stroke="#a21caf"/>
+    <text x="940" y="365" text-anchor="middle" font-weight="700" fill="#701a75">Benchmarks</text>
+    <text x="940" y="385" text-anchor="middle" font-size="11" fill="#701a75">TruthfulQA, HaluEval</text>
+    <text x="940" y="402" text-anchor="middle" font-size="10" fill="#701a75">FELM · POPE for MLLMs</text>
+  </g>
+
+  <!-- Open problem -->
+  <rect x="40" y="470" width="1020" height="80" rx="8" fill="#1f2937"/>
+  <text x="550" y="498" text-anchor="middle" font-weight="700" fill="#fff" font-size="14">Hardest open problem: defining a verification predicate for image and video hallucinations</text>
+  <text x="550" y="520" text-anchor="middle" font-size="11" fill="#cbd5e1">Text has TruthfulQA-style benchmarks. Pixels and frames do not — when is a generated image "wrong"?</text>
+  <text x="550" y="540" text-anchor="middle" font-size="11" fill="#cbd5e1">The autoresearch reproduction in this repo focuses on the LLM side where the metric is well-defined.</text>
+
+  <defs>
+    <marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#374151"/>
+    </marker>
+  </defs>
+</svg>

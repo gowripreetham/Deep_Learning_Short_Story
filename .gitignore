@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+node_modules/
+package-lock.json
+.DS_Store
+.env
+*.log
+
+# LibreOffice / Office temp + lock files
+.~lock.*
+*.tmp
+
+# don't commit huge raw recordings; upload to YouTube instead
+video/*.mp4
+video/*.mov
+video/*.mkv
