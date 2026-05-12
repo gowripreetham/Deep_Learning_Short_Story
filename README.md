@@ -12,11 +12,11 @@ This repository contains every deliverable for the assignment in one public plac
 
 | Deliverable | Location |
 |-------------|----------|
-| Medium article (final published version) | **<TODO: paste your Medium URL here>** |
+| Medium article (final published version) | **https://gowripreetam.medium.com/reliable-and-responsible-foundation-models-a-field-map-of-the-nine-open-problems-98eaba1c9db5** |
 | Local article markdown (source) | [`article/article.md`](article/article.md) |
 | Slide deck — `.pptx` | [`slides/reliable_responsible_foundation_models.pptx`](slides/reliable_responsible_foundation_models.pptx) |
 | Slide deck — `.pdf` | [`slides/reliable_responsible_foundation_models.pdf`](slides/reliable_responsible_foundation_models.pdf) |
-| SlideShare upload | **<TODO: paste your SlideShare URL here>** |
+| SlideShare upload | **https://www.slideshare.net/slideshow/comprehensive-survey-on-reliable-and-responsible-foundation-models-challenges-and-trade-offs/287479450** |
 | YouTube walkthrough video (15–25 min) | **<TODO: paste your YouTube URL here>** |
 | Video script + recording checklist | [`video/`](video/) |
 | Reproduction harness (autoresearch template) | [`autoresearch/`](autoresearch/) |
