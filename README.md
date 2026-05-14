@@ -17,7 +17,7 @@ This repository contains every deliverable for the assignment in one public plac
 | Slide deck — `.pptx` | [`slides/reliable_responsible_foundation_models.pptx`](slides/reliable_responsible_foundation_models.pptx) |
 | Slide deck — `.pdf` | [`slides/reliable_responsible_foundation_models.pdf`](slides/reliable_responsible_foundation_models.pdf) |
 | SlideShare upload | **https://www.slideshare.net/slideshow/comprehensive-survey-on-reliable-and-responsible-foundation-models-challenges-and-trade-offs/287479450** |
-| YouTube walkthrough video (15–25 min) | **<TODO: paste your YouTube URL here>** |
+| YouTube walkthrough video (15–25 min) | **https://youtu.be/uG_AHkDILo4** |
 | Video script + recording checklist | [`video/`](video/) |
 | Reproduction harness (autoresearch template) | [`autoresearch/`](autoresearch/) |
 | Reproduction summary | [`autoresearch/results/summary.json`](autoresearch/results/summary.json) |
